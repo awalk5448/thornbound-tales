@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Oren Vael, The Forgotten Prince, in Thornbound Tales." />
+    <title>Oren Vael | Thornbound Tales</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" href="../fonts/EnchantedTales.otf" as="font" type="font/opentype" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="../script.js" defer></script>
+  </head>
+  <body class="character-page oren-page">
+    <div class="page-shell">
+      <nav class="story-nav" aria-label="Story navigation">
+        <a class="back-link" href="../index.html">&larr; Back to Tales</a>
+        <span class="story-brand">Thornbound Tales</span>
+      </nav>
+
+      <header class="character-stage">
+        <div class="portrait-frame">
+          <img src="../images/oren-vael.png" alt="Oren Vael portrait" />
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">The Forgotten Prince</p>
+          <h1>Oren Vael</h1>
+          <p class="subtitle">He carries a crown no one else can see, and a kingdom no one else remembers.</p>
+          <div class="character-ornament" aria-hidden="true"></div>
+        </div>
+      </header>
+
+      <section class="audio-player" aria-label="Narration player">
+        <button class="play-btn" id="play-btn" type="button" aria-label="Play narration"></button>
+        <div class="progress-track" role="slider" aria-label="Narration progress" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-fill"></div>
+        </div>
+        <span class="audio-time">0:00 / 0:00</span>
+        <audio id="story-audio" preload="auto" src="../audio/oren-vael.mp3"></audio>
+      </section>
+
+      <main class="story-section">
+        <h2>The Kingdom of One</h2>
+        <div class="story-prose">
+          <p>The scar across Oren Vael's throat glows when he lies. A faint amber pulse, warm to the touch, visible even through a scarf. He learned early to tell the truth, not out of virtue but necessity. A man who cannot lie is a man who cannot hide, and a man who cannot hide learns to be very careful about which rooms he enters.</p>
+          <p>He was a prince once. He remembers the kingdom clearly &mdash; the copper-domed palace, the spice markets along the river, the sound of his mother's voice echoing in the marble courtyard. The kingdom was called Veranthi, and it sat between two mountain ranges like a jewel in a cupped palm.</p>
+          <p>Veranthi is gone.</p>
+          <p>Not destroyed. Not conquered. Not burned or buried or swept into the sea. Simply gone. Removed from memory the way a word is removed from a page &mdash; cleanly, completely, as though it had never been written. The mountains remain, but the valley between them is empty. The river flows, but no city sits on its banks. The maps show nothing. The history books skip from one era to the next without a seam.</p>
+          <p>No one remembers Veranthi except Oren.</p>
+          <p>He has tried telling people. He has stood in taverns and market squares and described the copper domes, the spice merchants, the way the light fell through the palace windows at dawn. People listen politely. Some nod. None believe him. And his scar stays dark while he speaks, which means he is telling the truth, which means either the kingdom was real or he genuinely believes it was, and no one can tell the difference.</p>
+          <p>He carries the crown. It sits in a leather satchel against his hip, wrapped in cloth. When he takes it out, no one sees it. He can hold it in front of their faces, set it on the table, place it on his own head &mdash; nothing. Their eyes pass over it the way eyes pass over a blank wall. It exists, but only for him.</p>
+          <p>This is the question that follows Oren like a second shadow: does a kingdom exist if only one person remembers it? Is Veranthi real because he holds its crown, or is it a ghost that lives only in the space behind his eyes?</p>
+          <p>He has walked back to the valley three times. Each time he finds grass and wind and nothing. He stands where the courtyard should be and closes his eyes and hears his mother's voice, and when he opens them there is only sky.</p>
+          <p>The scar does not glow. He is not lying. The kingdom was there.</p>
+          <p>He has begun to write it down &mdash; every detail, every name, every street and song and recipe. He fills journals and leaves them in libraries, slipped between other books, hoping someone will find one and read it and believe. Not because it would bring Veranthi back, but because a thing that is remembered by two people is harder to erase than a thing remembered by one.</p>
+          <p>He does not know who took Veranthi or why. He does not know if it can be restored. He only knows that as long as he breathes, the kingdom persists &mdash; fragile, flickering, alive only in the space between his memory and the empty valley.</p>
+          <p>He is the kingdom now. The last citizen. The final proof.</p>
+          <p>And the crown sits heavy in his bag, invisible to everyone but him, waiting to be seen.</p>
+        </div>
+      </main>
+
+      <section class="tale-switcher" aria-labelledby="other-tales-title">
+        <h2 id="other-tales-title">Other bound tales</h2>
+        <nav class="character-nav" aria-label="Other tales">
+          <a href="seraphine-dusk.html" class="nav-thumb"><img src="../images/seraphine-dusk.png" alt="Seraphine Dusk" /><span>Seraphine</span></a>
+          <a href="luelle.html" class="nav-thumb"><img src="../images/luelle.png" alt="Luelle" /><span>Luelle</span></a>
+          <a href="oren-vael.html" class="nav-thumb active" aria-current="page"><img src="../images/oren-vael.png" alt="Oren Vael" /><span>Oren</span></a>
+          <a href="jasper-wren.html" class="nav-thumb"><img src="../images/jasper-wren.png" alt="Jasper Wren" /><span>Jasper</span></a>
+          <a href="penvelyn.html" class="nav-thumb"><img src="../images/penvelyn.png" alt="Penvelyn" /><span>Penvelyn</span></a>
+          <a href="thessivane.html" class="nav-thumb"><img src="../images/thessivane.png" alt="Thessivane" /><span>Thessivane</span></a>
+        </nav>
+      </section>
+
+      <footer class="site-footer">
+        <p>A collection of dark tales, told in ink and ember.</p>
+      </footer>
+    </div>
+  </body>
+</html>

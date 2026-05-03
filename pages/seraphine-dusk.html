@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Seraphine Dusk, The Dream Merchant, in Thornbound Tales." />
+    <title>Seraphine Dusk | Thornbound Tales</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" href="../fonts/EnchantedTales.otf" as="font" type="font/opentype" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="../script.js" defer></script>
+  </head>
+  <body class="character-page seraphine-page">
+    <div class="page-shell">
+      <nav class="story-nav" aria-label="Story navigation">
+        <a class="back-link" href="../index.html">&larr; Back to Tales</a>
+        <span class="story-brand">Thornbound Tales</span>
+      </nav>
+
+      <header class="character-stage">
+        <div class="portrait-frame">
+          <img src="../images/seraphine-dusk.png" alt="Seraphine Dusk portrait" />
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">The Dream Merchant</p>
+          <h1>Seraphine Dusk</h1>
+          <p class="subtitle">She trades in nightmares, except the one she chose to keep.</p>
+          <div class="character-ornament" aria-hidden="true"></div>
+        </div>
+      </header>
+
+      <section class="audio-player" aria-label="Narration player">
+        <button class="play-btn" id="play-btn" type="button" aria-label="Play narration"></button>
+        <div class="progress-track" role="slider" aria-label="Narration progress" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-fill"></div>
+        </div>
+        <span class="audio-time">0:00 / 0:00</span>
+        <audio id="story-audio" preload="auto" src="../audio/seraphine-dusk.mp3"></audio>
+      </section>
+
+      <main class="story-section">
+        <h2>The Nightmare She Kept</h2>
+        <div class="story-prose">
+          <p>Seraphine Dusk has no shop, no sign, no address. She arrives when the candles gutter low and the last waking thought surrenders to sleep. By morning she is gone, and the dreamer wakes lighter &mdash; unburdened of whatever dark thing visited them in the night.</p>
+          <p>She is a dream merchant. She harvests nightmares.</p>
+          <p>The process is delicate. She kneels beside the sleeping body and holds her black glass lantern close to the dreamer's temple. The nightmare rises like smoke &mdash; reluctant, clinging &mdash; and curls into the lantern where it joins the others, pressing against the glass like fish in dark water. In exchange she leaves something behind: a forgotten memory, slipped under the eyelid like a coin under a pillow. A first laugh. The smell of bread from a kitchen that no longer exists. Something small and warm enough to fill the space the nightmare left.</p>
+          <p>She trades the nightmares at the Vesperthorn Bazaar, where collectors and scholars and worse things pay handsomely for the fears of others. The Bazaar opens only when the last light drains from the sky, its stalls draped in velvet the color of bruised plums, lanterns flickering with stolen flames. A child's nightmare about being swallowed by the floor might fetch three silver pins. A recurring terror about teeth falling into cupped hands &mdash; those are common, barely worth a copper wire. But the rare ones &mdash; nightmares so sharp and specific they could only belong to one person &mdash; those are worth more than Seraphine cares to count.</p>
+          <p>She has done this for longer than she can remember.</p>
+          <p>But there is one nightmare she will not sell.</p>
+          <p>She took it from a girl no older than six, a child sleeping in a house where the walls were thin and the voices on the other side were loud. The nightmare was not a monster. It was not a fall, not a flood, not the dark. It was a chair. An ordinary wooden chair, sitting in the center of an empty room, and in the dream the child understood with terrible clarity that she had been placed in that chair and told not to move and that no one was coming back.</p>
+          <p>Seraphine held the lantern up and watched the nightmare settle inside &mdash; a small gray thing, barely a wisp &mdash; and she felt the weight of it immediately. Heavier than it looked. Heavier than anything she had carried.</p>
+          <p>She left the girl a memory of sunlight on water. Then she walked into the night.</p>
+          <p>At the Vesperthorn Bazaar she set the lantern on the counter and opened it for the buyers to inspect. They leaned in, eager, breath fogging the glass. One by one they looked at the chair and the empty room and the understanding in it, and one by one they leaned back and said nothing.</p>
+          <p>No one wanted it.</p>
+          <p>Not because it was worthless. Because it was too real. The collectors wanted spectacle &mdash; grand fears, theatrical horrors. This was just a chair. Just silence. Just the knowledge that you have been left.</p>
+          <p>Seraphine closed the lantern. She walked home. She set it on her shelf beside the others.</p>
+          <p>That was eleven years ago.</p>
+          <p>She still carries it. Not because she cannot sell it, but because she has come to understand that some nightmares are not meant to be traded. Some are meant to be witnessed. She keeps the lantern lit, and sometimes late at night she holds it up and looks at the small gray wisp inside, and she says to it: I know. I know. You are not alone in there.</p>
+          <p>The girl is seventeen now. She sleeps soundly. She does not remember the chair.</p>
+          <p>But Seraphine remembers for her.</p>
+        </div>
+      </main>
+
+      <section class="tale-switcher" aria-labelledby="other-tales-title">
+        <h2 id="other-tales-title">Other bound tales</h2>
+        <nav class="character-nav" aria-label="Other tales">
+          <a href="seraphine-dusk.html" class="nav-thumb active" aria-current="page"><img src="../images/seraphine-dusk.png" alt="Seraphine Dusk" /><span>Seraphine</span></a>
+          <a href="luelle.html" class="nav-thumb"><img src="../images/luelle.png" alt="Luelle" /><span>Luelle</span></a>
+          <a href="oren-vael.html" class="nav-thumb"><img src="../images/oren-vael.png" alt="Oren Vael" /><span>Oren</span></a>
+          <a href="jasper-wren.html" class="nav-thumb"><img src="../images/jasper-wren.png" alt="Jasper Wren" /><span>Jasper</span></a>
+          <a href="penvelyn.html" class="nav-thumb"><img src="../images/penvelyn.png" alt="Penvelyn" /><span>Penvelyn</span></a>
+          <a href="thessivane.html" class="nav-thumb"><img src="../images/thessivane.png" alt="Thessivane" /><span>Thessivane</span></a>
+        </nav>
+      </section>
+
+      <footer class="site-footer">
+        <p>A collection of dark tales, told in ink and ember.</p>
+      </footer>
+    </div>
+  </body>
+</html>

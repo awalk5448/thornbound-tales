@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Luelle, The Light's Sorrow, in Thornbound Tales." />
+    <title>Luelle | Thornbound Tales</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" href="../fonts/EnchantedTales.otf" as="font" type="font/opentype" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="../script.js" defer></script>
+  </head>
+  <body class="character-page luelle-page">
+    <div class="page-shell">
+      <nav class="story-nav" aria-label="Story navigation">
+        <a class="back-link" href="../index.html">&larr; Back to Tales</a>
+        <span class="story-brand">Thornbound Tales</span>
+      </nav>
+
+      <header class="character-stage">
+        <div class="portrait-frame">
+          <img src="../images/luelle.png" alt="Luelle portrait" />
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">The Light's Sorrow</p>
+          <h1>Luelle</h1>
+          <p class="subtitle">She is drawn to every flame, and every flame falls quiet.</p>
+          <div class="character-ornament" aria-hidden="true"></div>
+        </div>
+      </header>
+
+      <section class="audio-player" aria-label="Narration player">
+        <button class="play-btn" id="play-btn" type="button" aria-label="Play narration"></button>
+        <div class="progress-track" role="slider" aria-label="Narration progress" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-fill"></div>
+        </div>
+        <span class="audio-time">0:00 / 0:00</span>
+        <audio id="story-audio" preload="auto" src="../audio/luelle.mp3"></audio>
+      </section>
+
+      <main class="story-section">
+        <h2>The Girl Who Darkened Flames</h2>
+        <div class="story-prose">
+          <p>No one called her Luelle before the lantern keeper. Before him she was only a shape in the fog &mdash; barefoot, shivering, skin so pale it seemed to hold its own quiet glow, like moonlight pressed into porcelain. When she stood before stained glass she wore its colors like silk. When she drifted through shadow she became a whisper of herself, barely there, a half-remembered reflection. Only the faint shimmer on her skin &mdash; iridescent, like light catching the surface of a pearl &mdash; proved she was something real.</p>
+          <p>The lantern keeper found her at the edge of the Thornfield Bridge, standing in the exact center of a circle of blown-out streetlamps. Every light within forty feet had gone dark the moment she wandered near.</p>
+          <p>He was an old man, patient with broken things. He relit the lamps after she passed, and the next night she came again and extinguished them again, and he relit them again. On the third night he brought tea.</p>
+          <p>"What do I call you?" he asked.</p>
+          <p>She didn't know.</p>
+          <p>He looked at her &mdash; the way she hovered near the lantern flame, swaying toward it like a petal caught in warm air. "Luelle," he said, as though he were remembering it rather than inventing it. It sounded like a breath leaving. She accepted it because it felt like a name that could float.</p>
+          <p>Luelle is drawn to light the way a melody is drawn toward its final note &mdash; instinctively, inevitably, as though the warmth is a song only she can hear and she has no choice but to follow it to its end. She does not choose it. She feels it &mdash; a pull behind her ribs. Candlelight, lamplight, firelight, starlight. She moves toward it helplessly, arms half-raised, fingers reaching.</p>
+          <p>And every light she touches goes out.</p>
+          <p>Not violently. Not with a snap or a hiss. The flame simply sighs and folds into itself and is gone, and a thin trail of smoke rises like a question. She has killed lanterns, bonfires, lighthouse beams. Once, during a festival, she wandered through a night market and left a quarter mile of darkness behind her, vendors fumbling for matches and cursing the wind.</p>
+          <p>She has tried gloves. She has tried standing far away. She has tried holding her breath, clenching her fists, thinking of cold things. Nothing works. The light sees her coming and gives up.</p>
+          <p>She has been searching for a flame that will not die.</p>
+          <p>The lantern keeper told her, before he passed, that somewhere beyond the Ashwood there is a fire that has burned since before the first word was spoken. Not a bonfire, not a star. A single candle, sitting on a stone table in a room no one has entered in a thousand years, and its flame has never flickered.</p>
+          <p>"If any light could survive you," he said, "it would be that one."</p>
+          <p>She has been walking toward the Ashwood ever since. She travels at night because the dark cannot hurt her &mdash; she is already full of it. She avoids towns because she does not want to leave them draped in shadow. When she sleeps she dreams of the candle on the stone table, steady and unwavering and completely unafraid of her.</p>
+          <p>She does not know what she will do when she finds it.</p>
+          <p>She is not sure whether she wants to touch it or simply sit beside it &mdash; to be near a light that stays. To rest in the warmth of something that does not flinch when she enters the room.</p>
+          <p>She is tired and weary of being the reason light vanquishes in her presence.</p>
+        </div>
+      </main>
+
+      <section class="tale-switcher" aria-labelledby="other-tales-title">
+        <h2 id="other-tales-title">Other bound tales</h2>
+        <nav class="character-nav" aria-label="Other tales">
+          <a href="seraphine-dusk.html" class="nav-thumb"><img src="../images/seraphine-dusk.png" alt="Seraphine Dusk" /><span>Seraphine</span></a>
+          <a href="luelle.html" class="nav-thumb active" aria-current="page"><img src="../images/luelle.png" alt="Luelle" /><span>Luelle</span></a>
+          <a href="oren-vael.html" class="nav-thumb"><img src="../images/oren-vael.png" alt="Oren Vael" /><span>Oren</span></a>
+          <a href="jasper-wren.html" class="nav-thumb"><img src="../images/jasper-wren.png" alt="Jasper Wren" /><span>Jasper</span></a>
+          <a href="penvelyn.html" class="nav-thumb"><img src="../images/penvelyn.png" alt="Penvelyn" /><span>Penvelyn</span></a>
+          <a href="thessivane.html" class="nav-thumb"><img src="../images/thessivane.png" alt="Thessivane" /><span>Thessivane</span></a>
+        </nav>
+      </section>
+
+      <footer class="site-footer">
+        <p>A collection of dark tales, told in ink and ember.</p>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Thornbound Tales, an immersive dark fantasy storybook experience of six enchanted character tales."
+    />
+    <title>Thornbound Tales</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" href="fonts/EnchantedTales.otf" as="font" type="font/opentype" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero glass-panel" aria-labelledby="site-title">
+        <p class="prelude">The bound volume opens</p>
+        <h1 id="site-title">Thornbound Tales</h1>
+        <div class="ornament" aria-hidden="true"><span></span></div>
+        <p class="tagline">Six souls. Six stories. Each one bound by thorns.</p>
+      </header>
+
+      <main>
+        <section class="gallery-section glass-panel" aria-labelledby="gallery-title">
+          <div class="section-heading">
+            <h2 id="gallery-title">Choose a tale</h2>
+            <div class="thorn-line" aria-hidden="true"></div>
+          </div>
+
+          <div class="character-gallery" id="character-gallery"></div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>A collection of dark tales, told in ink and ember.</p>
+        <small>Built with AI tools &mdash; Midjourney, ElevenLabs, Claude, and Codex</small>
+      </footer>
+    </div>
+  </body>
+</html>

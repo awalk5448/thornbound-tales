@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Penvelyn, The Exiled Thorn, in Thornbound Tales." />
+    <title>Penvelyn | Thornbound Tales</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" href="../fonts/EnchantedTales.otf" as="font" type="font/opentype" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="../script.js" defer></script>
+  </head>
+  <body class="character-page penvelyn-page">
+    <div class="page-shell">
+      <nav class="story-nav" aria-label="Story navigation">
+        <a class="back-link" href="../index.html">&larr; Back to Tales</a>
+        <span class="story-brand">Thornbound Tales</span>
+      </nav>
+
+      <header class="character-stage">
+        <div class="portrait-frame">
+          <img src="../images/penvelyn.png" alt="Penvelyn portrait" />
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">The Exiled Thorn</p>
+          <h1>Penvelyn</h1>
+          <p class="subtitle">Her cracked wings were mended in gold, and the truth still waits in her blade.</p>
+          <div class="character-ornament" aria-hidden="true"></div>
+        </div>
+      </header>
+
+      <section class="audio-player" aria-label="Narration player">
+        <button class="play-btn" id="play-btn" type="button" aria-label="Play narration"></button>
+        <div class="progress-track" role="slider" aria-label="Narration progress" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-fill"></div>
+        </div>
+        <span class="audio-time">0:00 / 0:00</span>
+        <audio id="story-audio" preload="auto" src="../audio/penvelyn.mp3"></audio>
+      </section>
+
+      <main class="story-section">
+        <h2>The Exiled Thorn</h2>
+        <div class="story-prose">
+          <p>At her natural size Penvelyn is no larger than a hummingbird, and twice as fast. Her wings &mdash; dragonfly-thin, cracked in three places, mended with veins of gold that catch the light like tiny lightning bolts &mdash; beat so quickly they hum. The sound is high and delicate, a single sustained note that most humans mistake for a distant chime carried on the wind. Being mistaken for a sound at the edge of hearing is safer than being seen.</p>
+          <p>She can grow when she chooses &mdash; and she does not choose lightly. In a single breath she expands from hummingbird to human height, her wings scaling with her until they trail from her shoulders like a damaged cloak stitched with gold. At full size she stands exactly five feet, four inches tall, with deep reddish-brown skin and close-cropped hair that curls tight against her skull. Her armor scales too: at small size it is a thimble beaten into a breastplate, thorns lashed together for gauntlets. At human size it becomes something stranger &mdash; dark, organic, sharp-edged, as though she is wearing the skeleton of a rose.</p>
+          <p>She does not grow for comfort or convenience. She grows to fight. She grows to be seen. She grows when being small is no longer an option.</p>
+          <p>Penvelyn was a knight of the Gossamer Court, sworn to the queen's truth &mdash; a living oath, bound to speak only what is real, to cut through flattery and deception the way her thorn-blade cuts through silk. The Gossamer Court runs on beauty and beauty runs on lies, and Penvelyn's role was to be the single honest voice in a palace built on pleasant fiction.</p>
+          <p>She was very good at her job. Too good.</p>
+          <p>The truth she told was not dramatic. She did not expose a conspiracy or reveal a hidden enemy. She simply said, during a feast, in front of the full court, that the queen's youngest daughter had not died of fever as the official story claimed. The princess had left. Willingly. She had walked out of the court and into the human world because she could not bear another day of performing perfection.</p>
+          <p>The court went silent. The queen's face did not change &mdash; it never changes &mdash; but her wings stopped moving, and in the Gossamer Court a queen whose wings are still is a queen who is about to destroy something.</p>
+          <p>Penvelyn was exiled within the hour. Her wings were cracked &mdash; three deliberate fractures, one for each word the queen deemed unforgivable: <em>She chose to leave.</em> The gold mending came later, Penvelyn's own work, sitting alone on a toadstool in the rain with a needle and a thread of molten light, stitching herself back together because no one else was going to.</p>
+          <p>She lives in the human world now, mostly small, mostly hidden. She sleeps in library bookshelves and eats crumbs from cafe tables and watches humans with a fascination she did not expect. They are clumsy and loud and breakable, but they say what they mean with an ease that makes her chest ache. No court. No performance. Just blunt, graceless, beautiful honesty.</p>
+          <p>She thinks about going back.</p>
+          <p>Not to apologize &mdash; she was right and she knows it. The princess did leave. The queen did lie. These are facts and facts do not require forgiveness.</p>
+          <p>She thinks about going back to say it again. Louder this time. At full height. With her cracked golden wings spread wide and her thorn-blade drawn, standing in the center of the Gossamer Court, looking the queen in her perfect unmoving face, and telling the truth one more time &mdash; not because it will change anything, but because some truths need to be repeated until the walls absorb them.</p>
+          <p>She is not ready yet, and she is mending. Every crack sealed with gold makes her harder to break the next time.</p>
+        </div>
+      </main>
+
+      <section class="tale-switcher" aria-labelledby="other-tales-title">
+        <h2 id="other-tales-title">Other bound tales</h2>
+        <nav class="character-nav" aria-label="Other tales">
+          <a href="seraphine-dusk.html" class="nav-thumb"><img src="../images/seraphine-dusk.png" alt="Seraphine Dusk" /><span>Seraphine</span></a>
+          <a href="luelle.html" class="nav-thumb"><img src="../images/luelle.png" alt="Luelle" /><span>Luelle</span></a>
+          <a href="oren-vael.html" class="nav-thumb"><img src="../images/oren-vael.png" alt="Oren Vael" /><span>Oren</span></a>
+          <a href="jasper-wren.html" class="nav-thumb"><img src="../images/jasper-wren.png" alt="Jasper Wren" /><span>Jasper</span></a>
+          <a href="penvelyn.html" class="nav-thumb active" aria-current="page"><img src="../images/penvelyn.png" alt="Penvelyn" /><span>Penvelyn</span></a>
+          <a href="thessivane.html" class="nav-thumb"><img src="../images/thessivane.png" alt="Thessivane" /><span>Thessivane</span></a>
+        </nav>
+      </section>
+
+      <footer class="site-footer">
+        <p>A collection of dark tales, told in ink and ember.</p>
+      </footer>
+    </div>
+  </body>
+</html>
